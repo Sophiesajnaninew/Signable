@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "dashboardstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+    <title>Dashboard</title>
+
+</head>
+
+<header>
+    <div class="container">
+      <!--
+      <div id="header">
+        <h1>SignSnap</h1>
+        <div>
+          <button class="tablinks" onclick="openCity(event, 'Dashboard')">Dashboard</button>
+          <button class="tablinks" onclick="openCity(event, 'create_card')">Create</button>
+          <button class="tablinks" onclick="openCity(event, 'About Us')">About Us</button>
+
+        </div>
+      -->
+      <!-- nav bar -->
+<section class="navigation">
+  <div class="nav-container">
+      <a class = "navbar-brand" href="dashboard.html"><img src = "images/Singable-2.png"   style = "margin-left: -45px; margin-top: -90px;" ></img></a>
+    
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        <!-- Setting the links to #! will ensure that no action takes place on click. -->
+        <li style = "font-weight: bold"><a href="dashboard.html">Dashboard</a></li>
+        <li style = "font-weight: bold"><a href="index.html">Create</a></li>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+     
+      </div>
+   
+  </header>
+
+<body>
+  <br>
+    <h2 style = "margin-left: 20px; color: black;">Dashboard 📚</h2>
+    <br>
+    <h3 style = "margin-left: 20px; ">Study Guides: 📝</h3>
+    <br>
+    
+
+    <!-- study guides -->
+<center>
+  
+    <div class = "row">
+      <div class="col">
+    <div class="card">
+        <div class="container">
+          <h4><b>ASL Level 1</b></h4> 
+          <p>Conversational Phrases</p> 
+          <a href = "flash.html"><p><i class="arrow right"></i></p></a>
+        </div>
+      </div>
+      </div>
+    
+    
+<div class = "col">
+      <div class="card">
+        <div class="container">
+          <h4><b>ASL Level 2</b></h4> 
+          <p>Family Words</p> 
+          <a href = "flash2.html"><p><i class="arrow right"></i></p></a>
+        </div>
+      </div>
+     </div>
+
+
+<div class = "col">
+      <div class="card">
+        <div class="container">
+          <h4><b>ASL Level 3</b></h4> 
+          <p>Food Words</p> 
+          <a href = "flash3.html"><p><i class="arrow right"></i></p></a>
+        </div>
+      </div>
+   </div>
+   
+   </div>
+</center>
+
+<br>
+<br>
+    <center><a href = "index.html"><button class = "newdeck" style = "margin-left: 20px; font-weight: bold;" >Start a new deck</button></a></center>
+       
+    
+<h3 style = "margin-left: 20px; ">Study Tracker: 🗓️ </h3>
+
+     <!-- habit tracker code -->
+
+<center>
+  <br>
+  <br>
+<div id="habitcards">
+  <div class="habitcard">
+    <div class="header">
+      Day 1
+    </div>
+    <div class="task not-done">Convo skills</div>
+    <div class="task not-done">Family</div>
+      <div class="task not-done">Food words</div>
+  </div>
+    <div class="habitcard">
+    <div class="header">
+      Day 2
+    </div>
+    <div class="task not-done">Relationships</div>
+    <div class="task not-done">Animals</div>
+      <div class="task not-done">Places</div>
+  </div>
+      <div class="habitcard">
+    <div class="header">
+      Day 3
+    </div>
+    <div class="task not-done">Travel</div>
+    <div class="task not-done">Transportation</div>
+      <div class="task not-done">Clothing</div>
+  </div>
+</center>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src = "dashboard.js"></script>
+</body>
+</html>
